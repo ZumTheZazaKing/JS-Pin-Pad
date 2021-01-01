@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>PIN Pad</title>
+</head>
+<body>
+
+    <div id="container">
+
+        <input type="text" id="userPin"><br>
+        <br><br><br>
+
+        <span class="key number" onclick="document.getElementById('userPin').value += '1'">1</span>&nbsp;&nbsp;&nbsp;
+        <span class="key number" onclick="document.getElementById('userPin').value += '2'">2</span>&nbsp;&nbsp;&nbsp;
+        <span class="key number" onclick="document.getElementById('userPin').value += '3'">3</span><br><br><br>
+        <span class="key number" onclick="document.getElementById('userPin').value += '4'">4</span>&nbsp;&nbsp;&nbsp;
+        <span class="key number" onclick="document.getElementById('userPin').value += '5'">5</span>&nbsp;&nbsp;&nbsp;
+        <span class="key number" onclick="document.getElementById('userPin').value += '6'">6</span><br><br><br>
+        <span class="key number" onclick="document.getElementById('userPin').value += '7'">7</span>&nbsp;&nbsp;&nbsp;
+        <span class="key number" onclick="document.getElementById('userPin').value += '8'">8</span>&nbsp;&nbsp;&nbsp;
+        <span class="key number" onclick="document.getElementById('userPin').value += '9'">9</span><br><br><br>
+        <span class="key backspace" onclick="backspace()">⌫</span>&nbsp;&nbsp;&nbsp;
+        <span class="key number" onclick="document.getElementById('userPin').value += '0'">0</span>&nbsp;&nbsp;&nbsp;
+        <span class="key check" onclick="check()">✔</span>
+
+
+
+    </div>
+    
+</body>
+</html>
